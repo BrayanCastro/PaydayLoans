@@ -1,13 +1,9 @@
 # Author: Brayan Castro
-# Class:  COMP 141-10am
-# Project: Program 2
-# Pledge: I have neither given nor received unauthorized aid on this program.
-# Description: For this program I have developed a program that calculates the APR of a payday loan in the two scenarios listed below. Either :  "(1) I know the total loan amount or amount the borrower will receive , the total fee or cost of the loan, and the length of the loan (in days or months)" or "(2) I know the fee in dollars (or percent) for every 100 dollars borrowed and the length of the loan (in days or months"
+# Project: PaydayLoans
+# Description: For this program I have developed a program that calculates the APR of a payday loan in the two scenarios listed below.  
+# (1) I know the total loan amount or amount the borrower will receive , the total fee or cost of the loan, and the length of the loan (in days or months)
+# (2) I know the fee in dollars (or percent) for every 100 dollars borrowed and the length of the loan (in days or months
 
-
-
-
-#my main function 
 def main(): 
   
   #Introduction to calculator
@@ -44,9 +40,7 @@ def main():
       else:
         print("invalid input")
         
-        
-        
-      
+       
   #The code that will run if user chose option 2    
   elif info == "2":
       typee = input("Where you given a percentage rate or a set finance charge for every 100 USD? Enter p or c: ")
@@ -75,7 +69,7 @@ def main():
             
             
             
-                            #The code that will run if user chose percentage            
+  #The code that will run if user chose percentage            
       elif typee == "p":
           total_finance_charge3= float(input("What was the percentage for each 100 USD borrowed? "))
           loan_length3= input("Where you given the loan length in days or months?  Enter d or m ")
