@@ -1,0 +1,2 @@
+# PaydayLoans
+For this program I have developed a program that calculates the APR of a payday loan in the two scenarios listed below. Either :  "(1) I know the total loan amount or amount the borrower will receive , the total fee or cost of the loan, and the length of the loan (in days or months)" or "(2) I know the fee in dollars (or percent) for every 100 dollars borrowed and the length of the loan (in days or months"
